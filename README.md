@@ -1,7 +1,10 @@
 # Ivan Napoles · Portfolio
 
+[![Live Demo](https://img.shields.io/badge/demo-live_preview-blueviolet?style=for-the-badge&logo=netlify)](https://ivangeo.netlify.app/)
+
 Vanilla HTML/CSS/JS portfolio — no build tools, no dependencies, no npm.
-Drop the `/portfolio` folder anywhere and it works.
+**Check it out here:** [ivangeo.netlify.app](https://ivangeo.netlify.app/)
+
 
 ---
 
