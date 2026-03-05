@@ -126,6 +126,15 @@ body {
   color: var(--accent);
   letter-spacing: 0.05em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.nav-logo-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  flex-shrink: 0;
 }
 .nav-logo span { color: #fff; }
 [data-theme="light"] .nav-logo span { color: #0c0c0e; }
