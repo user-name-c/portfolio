@@ -752,9 +752,10 @@ section { position: relative; overflow: hidden; }
 /* Card image */
 .project-img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  background: #0c0c0e;
+  height: auto;
+  /* aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #0c0c0e; */
   display: block;
 }
 
