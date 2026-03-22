@@ -484,51 +484,61 @@
           <div class="projects-track" id="projects-track">
             <!-- ── PROJECT  map earth quake ── -->
              <article class="project-card" aria-label="Mexico Earthquake Interactive Map project">
-                  <img src="https://raw.githubusercontent.com/user-name-c/mexico-earthquakes-map/main/output/preliminary_exploration.png"
-                      alt="Interactive map showing seismic distribution in Mexico"
-                      class="project-img"
-                      loading="lazy"
-                      width="560" height="315" 
-                      onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                  
-                  <div class="project-img-placeholder" style="display:none;" role="img" aria-label="Geospatial Map Visualization">
-                    <svg viewBox="0 0 560 315" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                      <rect width="560" height="315" fill="#0d1520"/>
-                      <g stroke="#2a7fff" stroke-width="0.5" opacity="0.2">
-                        <line x1="0" y1="50" x2="560" y2="50" />
-                        <line x1="0" y1="100" x2="560" y2="100" />
-                        <line x1="0" y1="150" x2="560" y2="150" />
-                        <line x1="0" y1="200" x2="560" y2="200" />
-                        <line x1="100" y1="0" x2="100" y2="315" />
-                        <line x1="200" y1="0" x2="200" y2="315" />
-                        <line x1="300" y1="0" x2="300" y2="315" />
-                      </g>
-                      <circle cx="280" cy="150" r="30" fill="none" stroke="#2a7fff" stroke-width="2" opacity="0.6" />
-                      <circle cx="200" cy="180" r="15" fill="none" stroke="#2a7fff" stroke-width="1.5" opacity="0.4" />
-                      <circle cx="350" cy="120" r="45" fill="none" stroke="#2a7fff" stroke-width="1" opacity="0.3" />
-                      <text x="10" y="306" font-family="Space Mono, monospace" font-size="8" fill="#1a3a5a">GEOSPATIAL · FOLIUM · GIS</text>
-                    </svg>
-                  </div>
+  <img src="https://raw.githubusercontent.com/user-name-c/mexico-earthquakes-map/main/docs/preliminary_exploration.png"
+       alt="Interactive map showing seismic distribution in Mexico with magnitude-scaled circles and depth-based colors"
+       class="project-img"
+       loading="lazy"
+       width="560" 
+       height="315" 
+       onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+  
+  <div class="project-img-placeholder" style="display:none;" role="img" aria-label="Geospatial Map Visualization">
+    <svg viewBox="0 0 560 315" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="560" height="315" fill="#0d1520"/>
+      <g stroke="#2a7fff" stroke-width="0.5" opacity="0.2">
+        <line x1="0" y1="50" x2="560" y2="50" />
+        <line x1="0" y1="100" x2="560" y2="100" />
+        <line x1="0" y1="150" x2="560" y2="150" />
+        <line x1="0" y1="200" x2="560" y2="200" />
+        <line x1="100" y1="0" x2="100" y2="315" />
+        <line x1="200" y1="0" x2="200" y2="315" />
+        <line x1="300" y1="0" x2="300" y2="315" />
+      </g>
+      <circle cx="280" cy="150" r="30" fill="none" stroke="#2a7fff" stroke-width="2" opacity="0.6" />
+      <circle cx="200" cy="180" r="15" fill="none" stroke="#2a7fff" stroke-width="1.5" opacity="0.4" />
+      <circle cx="350" cy="120" r="45" fill="none" stroke="#2a7fff" stroke-width="1" opacity="0.3" />
+      <text x="10" y="306" font-family="Space Mono, monospace" font-size="8" fill="#1a3a5a">GEOSPATIAL · FOLIUM · GIS</text>
+    </svg>
+  </div>
 
-                  <div class="project-body">
-                    <h3 class="project-name">Mexico Earthquake Interactive Map</h3>
-                    <p class="project-desc">
-                      End-to-end geospatial tool that transforms raw <strong>USGS API</strong> data into interactive maps. 
-                      Developed with <strong>GeoPandas</strong> and <strong>Folium</strong>, it features CRS management (WGS84), 
-                      thematic cartography by magnitude/depth, and dynamic Leaflet.js layers for real-time seismic monitoring.
-                    </p>
-                    <div class="project-links">
-                      <a href="https://github.com/user-name-c/mexico-earthquakes-map" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Earthquake Map on GitHub">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                        GitHub
-                      </a>
-                      <a href="https://github.com/user-name-c/mexico-earthquakes-map/blob/main/notebooks/exploration.ipynb" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Exploration Notebook">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v2H5v14h14v-9h2v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10zm7-1v6h-2V5.41l-9.29 9.3-1.42-1.42L17.59 4H13V2h8z"/></svg>
-                        Explore Logic
-                      </a>
-                    </div>
-                  </div>
-              </article>
+  <div class="project-body">
+    <h3 class="project-name">Mexico Earthquake Interactive Map</h3>
+    <p class="project-desc">
+      End-to-end geospatial application transforming live <strong>USGS API</strong> data into a fully interactive 
+      web map. Built with <strong>GeoPandas</strong> and <strong>Folium</strong>, featuring CRS management (WGS84), 
+      thematic cartography with proportional symbols (magnitude) and color scales (depth). <strong>Deployed to 
+      GitHub Pages</strong> with a custom dashboard offering real-time filtering by magnitude (0-9) and depth 
+      (0-700km), live statistics, and multiple basemap layers. Demonstrates full pipeline from API ingestion 
+      to production-ready deployment.
+    </p>
+    <div class="project-links">
+      <a href="https://user-name-c.github.io/mexico-earthquakes-map/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Demo">
+        <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+        </svg>
+        Live Demo
+      </a>
+      <a href="https://github.com/user-name-c/mexico-earthquakes-map" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Earthquake Map on GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.24 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://github.com/user-name-c/mexico-earthquakes-map/blob/main/notebooks/exploration.ipynb" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Exploration Notebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v2H5v14h14v-9h2v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10zm7-1v6h-2V5.41l-9.29 9.3-1.42-1.42L17.59 4H13V2h8z"/></svg>
+        Explore Logic
+      </a>
+    </div>
+  </div>
+</article>
 
             <!-- ── earthquakePROJECT  ── -->
             <article class="project-card" aria-label="Mexico Earthquake Analysis project">
